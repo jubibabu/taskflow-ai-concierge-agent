@@ -44,13 +44,6 @@ class ConciergeAgent:
             return result
 
         results = self.vectorstore.similarity_search_with_relevance_scores(user_input, k=3)
-
-        debug_lines = []
-        for doc, score in results:
-            snippet = doc.page_content[:60].replace("\n", " ")
-            debug_lines.append("score=" + str(round(score, 3)) + " | " + snippet)
-        debug_text = "\n".join(debug_lines)
-
         relevant = [doc for doc, score in results if score >= 0.2]
 
         if not relevant:
@@ -58,8 +51,6 @@ class ConciergeAgent:
         else:
             context = "\n\n".join([d.page_content for d in relevant[:2]])
             answer = "Based on what I found:\n\n" + context
-
-        answer = answer + "\n\n---DEBUG SCORES---\n" + debug_text
 
         self.history.append(("assistant", answer))
         return answer
