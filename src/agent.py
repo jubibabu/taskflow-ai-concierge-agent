@@ -44,7 +44,7 @@ class ConciergeAgent:
             return result
 
         results = self.vectorstore.similarity_search_with_relevance_scores(user_input, k=3)
-        relevant = [doc for doc, score in results if score >= 0.5]
+        relevant = [doc for doc, score in results if score >= 0.2]
 
         if not relevant:
             answer = "I'm the TaskFlow concierge for Notion-related questions. I don't have information on that topic here, but I can help with Notion features, pricing, support, booking a demo, or raising a support ticket."
