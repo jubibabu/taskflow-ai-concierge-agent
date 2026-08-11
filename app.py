@@ -4,11 +4,18 @@ import streamlit as st
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
-from agent import build_agent
+from agent import build_agent, PERSIST_DIR
+from ingest import build_vectorstore
 
 st.set_page_config(page_title="TaskFlow AI Concierge", page_icon="Robot")
 st.title("TaskFlow AI Concierge Agent")
 st.caption("Ask about Notion features, pricing, or support - or ask me to book a demo / raise a ticket.")
+
+if "vectorstore_ready" not in st.session_state:
+    with st.spinner("Setting up knowledge base..."):
+        if not os.path.exists(PERSIST_DIR):
+            build_vectorstore()
+    st.session_state.vectorstore_ready = True
 
 if "agent" not in st.session_state:
     st.session_state.agent = build_agent()
