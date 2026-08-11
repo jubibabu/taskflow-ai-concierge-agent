@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaskFlow AI Concierge Agent
 
 RAG-powered AI concierge agent with agent tools (book demo, create support ticket) and conversation memory. Built with LangChain, ChromaDB, HuggingFace embeddings, and Streamlit.
@@ -46,3 +47,6 @@ RAG-powered AI concierge agent with agent tools (book demo, create support ticke
 - "What are Notion's pricing plans?"
 - "Book me a demo for tomorrow at 3pm"
 - "Create a ticket — my workspace won't sync"
+=======
+# taskflow-ai-concierge-agent
+>>>>>>> 1d28205a0649396af79845303a1cd2da298c9773
