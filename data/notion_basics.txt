@@ -1,0 +1,9 @@
+Notion is an all-in-one workspace app that combines notes, documents, wikis, task management, and databases in a single connected platform. Users organize content into pages, which can be nested inside other pages to form a hierarchy. Each page supports rich content blocks such as text, images, embeds, to-do lists, and tables.
+
+Getting started: New users create a workspace, which acts as a container for all their pages and team members. From the sidebar, users can create a new page using the "+ New Page" button, then choose a blank page or a template. Templates provide pre-built structures for common use cases like meeting notes, project trackers, and personal journals.
+
+Blocks and formatting: Every piece of content in Notion is a "block." Users can type "/" to bring up a menu of block types, including headings, bullet lists, toggle lists, code blocks, and callouts. Blocks can be dragged and rearranged freely on the page.
+
+Databases: Notion databases let users organize structured information as tables, boards (kanban), calendars, lists, or galleries. Each database has customizable properties such as text, number, select, date, and person fields. Databases can be filtered, sorted, and grouped to create different views of the same underlying data.
+
+Sharing and permissions: Pages can be shared with specific people or published publicly to the web. Workspace owners can assign roles (owner, member, guest) to control what different users can view or edit.

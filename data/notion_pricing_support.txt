@@ -1,0 +1,7 @@
+Notion offers multiple pricing tiers: a Free plan for individuals with basic features and limited file uploads, a Plus plan aimed at small teams needing more blocks and guest access, a Business plan with advanced permissions and analytics, and an Enterprise plan with SAML SSO, advanced security controls, and dedicated support.
+
+Support channels: Users can reach Notion support through the in-app help widget (the "?" icon in the sidebar), by emailing the support team, or by browsing the public Help Center, which contains categorized guides on getting started, AI features, custom agents, credits, sharing and permissions, and databases.
+
+Data recovery: If a user accidentally deletes a page or an entire workspace, Notion keeps backups that allow recovery of a snapshot from within the past 30 days. Users request this recovery through the in-app support widget.
+
+Common support topics include: setting up a knowledge base or help center from Notion pages, structuring databases for team workflows, resolving sync issues, and understanding role-based permissions for shared workspaces.

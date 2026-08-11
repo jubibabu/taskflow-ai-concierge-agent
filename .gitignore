@@ -1,0 +1,5 @@
+﻿.streamlit/secrets.toml
+src/chroma_db/
+src/__pycache__/
+__pycache__/
+*.pyc

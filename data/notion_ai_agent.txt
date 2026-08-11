@@ -1,0 +1,7 @@
+Notion AI is a set of built-in AI features that help users write, summarize, translate, and organize content directly inside their pages. It can draft text from a prompt, fix grammar and spelling, condense long notes into summaries, and answer questions using the content already in a workspace.
+
+Notion Agent acts as an AI teammate that can take actions on a user's behalf inside the workspace. It can create and edit pages, manage databases, start AI meeting notes, and create reminders, using the same permissions as the user who set it up. Users personalize their Agent by giving it a name and custom instructions describing how it should behave, and can define reusable "skills" for repeated tasks.
+
+Custom Agents extend this further, letting teams build automated workflows for recurring work such as triaging tickets, updating status fields, or generating recurring reports, without manual intervention each time.
+
+Common limitations: Agent actions on mobile are more limited than on web or desktop; for example, scheduling calendar events and connecting new MCP servers are currently only available on web and desktop.
