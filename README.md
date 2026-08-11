@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # TaskFlow AI Concierge Agent
 
 RAG-powered AI concierge agent with agent tools (book demo, create support ticket) and conversation memory. Built with LangChain, ChromaDB, HuggingFace embeddings, and Streamlit.
